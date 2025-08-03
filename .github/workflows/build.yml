@@ -22,7 +22,7 @@ jobs:
       - name: Upload DLL (x64)
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: rosu-pp-x64
+          name: okayu-pp-x64
           path: target/x86_64-pc-windows-msvc/release/*.dll
 
   build-x86:
@@ -41,5 +41,5 @@ jobs:
       - name: Upload DLL (x86)
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: rosu-pp-x86
+          name: okayu-pp-x86
           path: target/i686-pc-windows-msvc/release/*.dll
