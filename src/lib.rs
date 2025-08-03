@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 use okayu_pp_rs::{
-=======
-use okayu_pp::{
->>>>>>> b3f472a9dec5ee6bd44abf30690c7e07e64858ce
     any::PerformanceAttributes,
     model::mode::GameMode,
     osu_2019::{stars::OsuPerformanceAttributes, OsuPP},
