@@ -9,7 +9,7 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 interoptopus = "0.14.14"
-okayu-pp-rs = { package = "okayu-pp", git = "https://github.com/osuokayu/okayu-pp-rs", rev = "111db33b7d1f8208bcd41883b6d43b87f35e6984" }
+okayu-pp-rs = { package = "okayu-pp", git = "https://github.com/osuokayu/okayu-pp-rs", rev = "357cf04ba20e1fca9a2df483958cd5505d433c46" }
 
 [dev-dependencies]
 interoptopus_backend_csharp = "0.14.14"
